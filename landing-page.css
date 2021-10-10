@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+header {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin: 16px 15vw;
+    justify-content: space-between;
+    align-content: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.headerlogo {
+    display: flex;
+    font-size: 18px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+.primer {
+    color: #f9faf8;
+    display: flex;
+    margin: 64px 15vw;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 12px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.primerInfo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpButton {
+    color: inherit;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 4px 16px;
+    border-radius: 12px;
+    border-color: #3882f6;
+    margin: auto;
+}
+
+.primerImage {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.container {
+    display: flex;
+    margin: 0 15vw 128px;
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.itemPlaceholder {
+    height: 100px;
+    width: 100px;
+    border: solid 4px lightblue;
+    border-radius: 8px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+.quoteField {
+    background-color: lightgray
+}
+
+.quote {
+    margin: 0 15vw;
+    display: flex;
+    padding: 64px 0 32px;
+    flex-direction: column;
+}
+
+.quote h3{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote h4{
+    display: flex;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
+.callToAction {
+    background-color: white;
+}
+
+.callContainer {
+    margin: 64px 15vw;
+    padding: 16px 64px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+}
+
+.callContainer .signUpButton {
+    font-size: 20px;
+    color: white;
+    border-color: white;
+}
+
+.callInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 2;
+    color: white;
+}
+
+.callInfo h3 {
+    font-size: 20px;
+}
+
+.callInfo h4 {
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 16px;
+    background-color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightsteelblue
+}
