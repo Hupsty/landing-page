@@ -22,7 +22,6 @@ a {
 }
 
 .headerlogo {
-    display: flex;
     font-size: 18px;
 }
 
@@ -129,7 +128,6 @@ h4 {
 }
 
 .quote h4{
-    display: flex;
     font-size: 18px;
     justify-content: flex-end;
 }
@@ -153,12 +151,8 @@ h4 {
 }
 
 .callInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex: 2;
     color: white;
+    flex: 1;
 }
 
 .callInfo h3 {
