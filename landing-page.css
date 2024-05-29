@@ -34,6 +34,9 @@ ul {
     color: #e5e7eb;
     font-size: 12px;
 }
+li:hover {
+    color: lightblue;
+}
 
 .primer {
     color: #f9faf8;
@@ -69,6 +72,10 @@ h3 {
     margin: auto;
 }
 
+.signUpButton:hover {
+    color: blue;
+}
+
 .primerImage {
     display: flex;
     flex: 1;
@@ -96,6 +103,8 @@ h3 {
     justify-items: center;
     align-items: center;
     margin-top: 64px;
+    padding: 0 2vw;
+    width: 105px;
 }
 
 .itemPlaceholder {
